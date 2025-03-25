@@ -32,7 +32,7 @@ Chrome için,
 1. `Boykot_Dedektoru_2025_FINAL_V.rar` reposunu ZIP olarak indir ya da klonla.
 2. Tarayıcında `chrome://extensions/` adresine git.
 3. Geliştirici modunu **aktif et**.
-4. “Paketlenmemiş öğe yükle” → `Boykot_Dedektoru_2025_FINAL` klasörü seç.
+4. “Paketlenmemiş öğe yükle” → `Boykot_Dedektoru_2025_FINAL` klasörünü seç.
 
 Firefox için,
 1. Firefox URL kısmına `about:debugging` tırnak içerisinde ki kısmı yazıp giriş sağla.
@@ -46,7 +46,7 @@ Opera GX için,
 3. Açılan pencerede önce `Sakla` ardından da `Yükle` seçeneklerine tıkla.
 4. Opera GX otomatik yüklemeyi başlatmazsa, tarayıcında `opera://extensions` adresine git.
 5. Geliştirici modunu **aktif et**.
-6. “Paketlenmemiş öğe yükle” → klasörü seç.
+6. “Paketlenmemiş öğe yükle” → `Boykot_Dedektoru_2025_FINAL` klasörünü seç.
 
 ---
 
