@@ -20,7 +20,7 @@ Boykot Dedektörü 2025, belirli markaların web sitelerine erişim sağlanmadan
 ## ⚙️ Özellikler
 
 - Manifest V3 uyumlu
-- Chrome ve Opera GX desteği
+- Chrome, Firefox ve Opera GX desteği
 - Açık kaynak kodlu
 - Domain listesi kolayca güncellenebilir (`content.js` dosyasında)
 
@@ -29,14 +29,24 @@ Boykot Dedektörü 2025, belirli markaların web sitelerine erişim sağlanmadan
 ## 🚀 Kurulum
 
 Chrome için,
-1. Bu repoyu ZIP olarak indir ya da klonla.
+1. `Boykot_Dedektoru_2025_FINAL_V.rar` reposunu ZIP olarak indir ya da klonla.
 2. Tarayıcında `chrome://extensions/` adresine git.
 3. Geliştirici modunu **aktif et**.
 4. “Paketlenmemiş öğe yükle” → klasörü seç.
 
 Firefox için,
+1. Firefox URL kısmına `about:debugging` tırnak içerisinde ki kısmı yazıp giriş sağla.
+2. Açılan sayfa da sol taraft abulunan "Bu Firefox" seçeneğine tıkla.
+3. Açılan sayfa da `Geçiçi eklenti yükle..` seçeneğie tıkladıktan sonra, önümüze gelen ekrandan `Boykot_Dedektoru_2025_Final` klasörünü aç.
+4. Klasör içerisinde ki `manifest.json` dosyasını seçip `Aç` dedikten sonra kurulum tamamlanıyor.
 
 Opera GX için,
+1. `Boykot_Dedektoru_2025_FINAL.crx` dosyasını RAW olarak indir.
+2. Opera GX tarafından gelen `Bilinmeyen Yükleyici` bildirimine tıkla.
+3. Açılan pencerede önce `Sakla` ardından da `Yükle` seçeneklerine tıkla.
+4. Opera GX otomatik yüklemeyi başlatmazsa, tarayıcında `opera://extensions` adresine git.
+5. Geliştirici modunu **aktif et**.
+6. “Paketlenmemiş öğe yükle” → klasörü seç.
 
 ---
 
@@ -51,7 +61,6 @@ Boykot edilen domainler `content.js` içindeki `boykotDomains` dizisinde tanıml
 Bu eklenti:
 - Herhangi bir kullanıcı verisi toplamaz.
 - Site geçmişini işlemez.
-- İnternet bağlantısı olmadan çalışabilir.
 
 ---
 
